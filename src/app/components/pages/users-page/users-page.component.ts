@@ -67,7 +67,7 @@ export class UsersPageComponent implements OnInit {
   }
   //favoring
   setFavorite(user: User){
-    this.api.setFavorite(user)
+    this.api.setPromotion(user)
     .subscribe({
       next:()=>{
         this.getUserList();

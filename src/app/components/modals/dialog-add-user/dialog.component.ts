@@ -26,7 +26,7 @@ export class DialogComponent implements OnInit {
       price: ['',Validators.required],
       state: ['',Validators.required],
       disponible: ['',Validators.required],
-      promotion : [false,Validators.required],
+      promotion : ['',Validators.required],
       creationDate : [new Date(),Validators.required],
       updationDate : [''],
     })

@@ -31,7 +31,7 @@ export class ApiService {
   removeUser(user : User){
     return this.http.delete<any>(this.url+user.id)
   }
-  setFavorite(user: User){
+  setPromotion(user: User){
     return this.http.patch<any>(this.url+user.id, {
      promotion: !user.promotion
     })
@@ -43,9 +43,4 @@ export class ApiService {
   postRegister(user : loginUser){
     return this.http.post<any>(this.urlLogin, user)
   };
-  changePassword(password: any, id: number){
-    return this.http.patch<any>(this.urlLogin+id, {
-      password: password
-    })
-  }
 }

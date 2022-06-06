@@ -4,55 +4,15 @@
       "name": "Hamburguer",
       "category": "Alimento",
       "price": 15,
-      "state": "Novo",
-      "disponible": 150,
-      "promotion": true,
-      "creationDate": "2022-06-04T15:50:13.596Z",
-      "updationDate": "2022-06-04T15:57:33.832Z",
-      "id": 1
-    },
-    {
-      "name": "Calça",
-      "category": "Moda",
-      "price": 50,
       "state": "Seminovo",
-      "disponible": 1,
+      "disponible": 150,
       "promotion": false,
-      "creationDate": "2022-06-06T21:10:54.362Z",
-      "updationDate": "",
-      "id": 2
+      "creationDate": "2022-06-04T15:50:13.596Z",
+      "updationDate": "2022-06-06T22:16:21.557Z",
+      "id": 1
     }
   ],
   "register": [
-    {
-      "email": "hrafael.alves9@gmail.com",
-      "password": 123,
-      "id": 1
-    },
-    {
-      "email": "teste@gmail.com",
-      "password": "123",
-      "id": 2
-    },
-    {
-      "email": "teste1@gmail.com",
-      "password": "123",
-      "id": 3
-    },
-    {
-      "email": "Rafael@gmail.com",
-      "password": "123456",
-      "id": 4
-    },
-    {
-      "email": "rafaelaaaaaa@gmail.com",
-      "password": "123",
-      "id": 5
-    },
-    {
-      "email": "rafael@gmail.com",
-      "password": "123",
-      "id": 6
-    }
+    
   ]
 }
