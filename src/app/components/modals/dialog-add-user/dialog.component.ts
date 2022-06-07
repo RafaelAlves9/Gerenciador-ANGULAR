@@ -20,6 +20,7 @@ export class DialogComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
+    //formulario
     this.userForm = this.formBuilder.group({
       name: ['',Validators.required],
       category: ['',Validators.required],
@@ -31,7 +32,7 @@ export class DialogComponent implements OnInit {
       updationDate : [''],
     })
   }
-
+  //enviando novo produto
   saveUser(){
     if(this.userForm.valid){
       this.api.postUser(this.userForm.value)
